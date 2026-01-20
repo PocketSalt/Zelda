@@ -4,4 +4,8 @@ C:\Users\Asch\Desktop\Game Jam\Zelda\src\Display.cpp(30,62): warning C4244: 'arg
 C:\Users\Asch\Desktop\Game Jam\Zelda\src\Display.cpp(30,52): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
 C:\Users\Asch\Desktop\Game Jam\Zelda\src\Display.cpp(30,40): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
 C:\Users\Asch\Desktop\Game Jam\Zelda\src\Display.cpp(30,22): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  Item.cpp
+  main.cpp
+  Generating Code...
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
   Game.vcxproj -> C:\Users\Asch\Desktop\Game Jam\Zelda\x64\Debug\Game.exe

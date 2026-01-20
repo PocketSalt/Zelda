@@ -28,6 +28,9 @@
     <ClCompile Include="src\Display.cpp">
       <Filter>src</Filter>
     </ClCompile>
+    <ClCompile Include="src\Item.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="ImGui">
@@ -51,6 +54,9 @@
       <Filter>includes</Filter>
     </ClInclude>
     <ClInclude Include="include\Display.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Item.h">
       <Filter>includes</Filter>
     </ClInclude>
   </ItemGroup>

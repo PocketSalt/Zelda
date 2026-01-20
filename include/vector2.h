@@ -1,4 +1,5 @@
 #pragma once
+#include <stdlib.h>
 
 #define NORTH Vector2Int(0, -1)
 #define SOUTH Vector2Int(0, 1)

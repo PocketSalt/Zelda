@@ -136,12 +136,14 @@
     <ClCompile Include="external\rlImGui-main\imgui\imgui_widgets.cpp" />
     <ClCompile Include="external\rlImGui-main\rlImGui.cpp" />
     <ClCompile Include="src\Display.cpp" />
+    <ClCompile Include="src\Item.cpp" />
     <ClCompile Include="src\main.cpp" />
     <ClCompile Include="src\Room.cpp" />
     <ClCompile Include="src\Tile.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\Display.h" />
+    <ClInclude Include="include\Item.h" />
     <ClInclude Include="include\Room.h" />
     <ClInclude Include="include\Tile.h" />
     <ClInclude Include="include\vector2.h" />

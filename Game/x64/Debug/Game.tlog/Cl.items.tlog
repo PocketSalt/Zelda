@@ -4,6 +4,7 @@ C:\Users\Asch\Desktop\Game Jam\Zelda\external\rlImGui-main\imgui\imgui_tables.cp
 C:\Users\Asch\Desktop\Game Jam\Zelda\external\rlImGui-main\imgui\imgui_widgets.cpp;C:\Users\Asch\Desktop\Game Jam\Zelda\Game\x64\Debug\imgui_widgets.obj
 C:\Users\Asch\Desktop\Game Jam\Zelda\external\rlImGui-main\rlImGui.cpp;C:\Users\Asch\Desktop\Game Jam\Zelda\Game\x64\Debug\rlImGui.obj
 C:\Users\Asch\Desktop\Game Jam\Zelda\src\Display.cpp;C:\Users\Asch\Desktop\Game Jam\Zelda\Game\x64\Debug\Display.obj
+C:\Users\Asch\Desktop\Game Jam\Zelda\src\Item.cpp;C:\Users\Asch\Desktop\Game Jam\Zelda\Game\x64\Debug\Item.obj
 C:\Users\Asch\Desktop\Game Jam\Zelda\src\main.cpp;C:\Users\Asch\Desktop\Game Jam\Zelda\Game\x64\Debug\main.obj
 C:\Users\Asch\Desktop\Game Jam\Zelda\src\Room.cpp;C:\Users\Asch\Desktop\Game Jam\Zelda\Game\x64\Debug\Room.obj
 C:\Users\Asch\Desktop\Game Jam\Zelda\src\Tile.cpp;C:\Users\Asch\Desktop\Game Jam\Zelda\Game\x64\Debug\Tile.obj
