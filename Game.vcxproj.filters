@@ -16,7 +16,16 @@
     <ClCompile Include="external\rlImGui-main\rlImGui.cpp">
       <Filter>ImGui</Filter>
     </ClCompile>
-    <ClCompile Include="main.cpp">
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Room.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tile.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Display.cpp">
       <Filter>src</Filter>
     </ClCompile>
   </ItemGroup>
@@ -30,5 +39,19 @@
     <Filter Include="includes">
       <UniqueIdentifier>{70e52a01-26ad-46c8-9179-ae504fac0325}</UniqueIdentifier>
     </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\Room.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="include\vector2.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Tile.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Display.h">
+      <Filter>includes</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

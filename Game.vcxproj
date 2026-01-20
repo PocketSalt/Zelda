@@ -104,7 +104,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>$(ProjectDir)external\rlImGui-main\imgui;$(ProjectDir)external\rlImGui-main;$(ProjectDir)external\raylib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)\include;$(ProjectDir)external\rlImGui-main\imgui;$(ProjectDir)external\rlImGui-main;$(ProjectDir)external\raylib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -135,7 +135,16 @@
     <ClCompile Include="external\rlImGui-main\imgui\imgui_tables.cpp" />
     <ClCompile Include="external\rlImGui-main\imgui\imgui_widgets.cpp" />
     <ClCompile Include="external\rlImGui-main\rlImGui.cpp" />
-    <ClCompile Include="main.cpp" />
+    <ClCompile Include="src\Display.cpp" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\Room.cpp" />
+    <ClCompile Include="src\Tile.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\Display.h" />
+    <ClInclude Include="include\Room.h" />
+    <ClInclude Include="include\Tile.h" />
+    <ClInclude Include="include\vector2.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
