@@ -33,6 +33,7 @@ void Init()
 
     rlImGuiSetup(true);
 
+    LoadTileTextures();
     room = Room("data/rooms/room00.txt");
 }
 
