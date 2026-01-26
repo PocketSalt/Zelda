@@ -16,7 +16,6 @@ struct TileDef
 {
     bool solid;
     TileID tileID;
-    Image image;
 };
 
 extern std::map<TileID, Texture2D> tileDefines;

@@ -4,6 +4,7 @@
 
 #include "Room.h"
 #include "Display.h"
+#include "ItemDefines.h"
 
 void Init();
 void Update();
@@ -28,13 +29,15 @@ int main() {
 
 void Init()
 {
-    InitWindow(1280, 720, "raylib + rlImGui");
+    InitWindow(1000, 670, "raylib + rlImGui");
     SetTargetFPS(60);
 
     rlImGuiSetup(true);
 
     LoadTileTextures();
+    InitItems();
     room = Room("data/rooms/room00.txt");
+    room.OnEnter();
 }
 
 void Update()
@@ -56,6 +59,7 @@ void Display()
     rlImGuiEnd();
 
     DrawRoom(room.GetMap());
+    DrawItems(room.GetRoomItems());
 
     EndDrawing();
 }

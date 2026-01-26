@@ -1,7 +1,17 @@
 #include "Item.h"
 
-std::unordered_map<ItemID, WorldItem> itemDefines =
+Item::Item(std::string name, const char* imageName)
 {
-	{ItemID::Basic_Key, WorldItem("Basic Key", "data/items/basic_key.png")},
-	{ItemID::Sword, WorldItem("Sword", "data/items/sword.png")},
-};
+	m_name = name;
+	m_texture = LoadTexture(imageName);
+}
+
+const std::string& Item::GetName() const
+{
+	return m_name;
+}
+
+const Texture2D& Item::GetTexture() const
+{
+	return m_texture;
+}

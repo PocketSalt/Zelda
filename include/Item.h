@@ -1,31 +1,40 @@
 #pragma once
 
 #include "vector2.h"
-#include <unordered_map>
 #include <string>
+#include "raylib.h"
 
 enum class ItemID
 {
-	Basic_Key = 0,
+	Potion = 0,
+	Basic_Key,
 	Sword,
+	COUNT
 };
 
-struct WorldItem
+class Item
 {
-	std::string name;
-	const char* imageName;
+public:
+	explicit Item(std::string name, const char* imageName);
+	virtual ~Item() = default;
 
-	WorldItem(std::string nam, const char* imgName)
-	{
-		name = nam;
-		imageName = imgName;
-	}
+	virtual void Use() = 0;
+
+	const std::string& GetName() const;
+	const Texture2D& GetTexture() const;
+protected:
+	std::string m_name;
+	Texture2D m_texture;
 };
 
 struct RoomItem
 {
 	ItemID ID;
 	Vector2Int pos;
-};
 
-extern std::unordered_map<ItemID, WorldItem> itemDefines;
+	RoomItem(ItemID IDD, Vector2Int poss)
+	{
+		ID = IDD;
+		pos = poss;
+	}
+};
